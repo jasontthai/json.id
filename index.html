@@ -1,86 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8"/>
-        <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-        <meta content="width=device-width, initial-scale=1" name="viewport"/>
-        <title>
-            Hey! I'm Jason.
-        </title>
-        <meta content="Hey I'm Jason." property="og:title"/>
-        <meta content="Jason Thai" name="author"/>
-        <meta content="en_US" property="og:locale"/>
-        <meta content="Jason Thai’s landing page" name="description"/>
-        <meta content="Jason Thai’s landing page" property="og:description"/>
-        <link href="https://json.id/" rel="canonical"/>
-        <meta content="https://json.id/" property="og:url"/>
-        <meta content="Jason That's landing page" property="og:site_name"/>
-        <script type="application/ld+json">
-            {"description":"Jason Thai’s page","author":{"@type":"Person","name":"Jason Thai"},"@type":"WebPage","url":"https://json.id/","headline":"Hey I'm Jason","@context":"https://schema.org"}
-        </script>
-        <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
-        <link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
-        <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
-        <link href="/site.webmanifest" rel="manifest"/>
-        <link href="/css/tachyons.min.css" rel="stylesheet"/>
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-120912817-3"/>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-120912817-3');
-        </script>
-        <!-- Matomo -->
-		<script type="text/javascript">
-		  var _paq = window._paq || [];
-		  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-		  _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
-		  _paq.push(['trackPageView']);
-		  _paq.push(['enableLinkTracking']);
-		  (function() {
-		    var u="https://analytics.jasonthai.me/";
-		    _paq.push(['setTrackerUrl', u+'matomo.php']);
-		    _paq.push(['setSiteId', '2']);
-		    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-		    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
-		  })();
-		</script>
-		<noscript><p><img src="https://analytics.jasonthai.me/matomo.php?idsite=2&amp;rec=1" style="border:0;" alt="" /></p></noscript>
-		<!-- End Matomo Code -->
-        <style type="text/css">
-          pre {
-            overflow-x: auto;
-            white-space: pre-wrap;
-            white-space: -moz-pre-wrap;
-            white-space: -pre-wrap;
-            white-space: -o-pre-wrap;
-            word-wrap: break-all;
-            hyphens: auto;
-            white-space: pre-wrap;
-         }
-        </style>
-    </head>
-</html>
-<body class="bg-dark-gray light-gray baskerville">
-    <div class="w-50-ns w-80-m center ph3 ph5-ns">
-        <h1>
-            /introduce
-        </h1>
-        <pre>
-<code>
-{
-  "id":       0,
-  "name":     "Jason Thai",
-  "email":    "<a class="link underline-hover hover-dark-red light-gray f6 f5-l" href="mailto:thaixtri@gmail.com">thaixtri@gmail.com</a>",
-  "position": "Software Engineer",
-  "company":  "<a class="link underline-hover hover-dark-red light-gray f6 f5-l" href="https://google.com">Google</a>",
-  "blog":     "<a class="link underline-hover hover-dark-red light-gray f6 f5-l" href="https://jasonthai.me">https://jasonthai.me</a>",
-  "github":   "<a class="link underline-hover hover-dark-red light-gray f6 f5-l" href="https://github.com/jasontthai">https://github.com/jasontthai</a>",
-  "linkedin": "<a class="link underline-hover hover-dark-red light-gray f6 f5-l" href="https://linkedin.com/in/jasontthai" style="overflow-wrap: break-word;">https://linkedin.com/in/jasontthai</a>"
-}
-</code>
-            </pre>
-    </div>
+<head>
+  <meta charset="utf-8" />
+  <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  <title>
+    Hey! I'm Jason.
+  </title>
+  <meta content="Hey I'm Jason." property="og:title" />
+  <meta content="Jason Thai" name="author" />
+  <meta content="en_US" property="og:locale" />
+  <meta content="Jason Thai’s landing page" name="description" />
+  <meta content="Jason Thai’s landing page" property="og:description" />
+  <link href="https://json.id/" rel="canonical" />
+  <meta content="https://json.id/" property="og:url" />
+  <meta content="Jason That's landing page" property="og:site_name" />
+  <link rel="icon" href="/favicon.svg">
+  <style>
+    :root {
+      --bg-color: #FFF;
+      --text-color: #000;
+      --link-color: rgb(29 78 216);
+      --link-text-color: #FFF;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg-color: rgb(41 37 36);
+        --text-color: #FFF;
+        --link-color: rgb(191 219 254);
+        --link-text-color: #000;
+      }
+    }
+
+    body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+      margin: auto;
+      max-width: 56rem;
+      padding: 0 1rem;
+    }
+
+    a {
+      color: var(--link-color);
+    }
+
+    a:hover {
+      background-color: var(--link-color);
+      color: var(--link-text-color);
+    }
+  </style>
+</head>
+
+<body>
+  <h1>
+    Nothing to see yet. Check out my blog at <a href="https://jasonthai.me/">jasonthai.me</a>
+  </h1>
 </body>
+
+</html>
